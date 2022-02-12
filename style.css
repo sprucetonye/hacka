@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+:root {
+    --transition: all 0.7s ease;
+    --yellow: #f9d342;
+    --dark: #292826;
+}
+/* .wrapper{
+    width: 90%;
+    margin: 0 auto;
+    padding: 1%;
+} */
+/* Navbar Css */
+
+.navbar {
+    background: #fff;
+    height: 80px;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: block;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar__menu{
+    display: inline;
+    text-align: right;
+    list-style: none;
+
+}
+.navbar__links {
+    color: black;
+}
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+
+}
+
+.button {
+    width: 10%;
+    border: none;
+    outline: none;
+    background: #f77062;
+    color: #fff;
+    border-radius: 6px;
+}
+.navbar__item {
+   
+    padding: 3%;
+    display: inline;
+}
+
+.download__btn {
+    margin-left: 10%;
+}
+
+
+.button:hover {
+    background: #ff87ff;
+    transition: all 0.3s ease;
+    color: #b721ff;
+    border-radius: 4px;
+}
+
+
+.navbar__links:hover{
+    color: #f77062;
+    transition: all 0.3s ease;
+}
+/* hero section */
+.hero-section{
+    width: 95%;
+    margin: 0 auto;
+}
+.box-2 {
+    width: 40%;
+    float: left;
+    margin: 2%;
+}
+.box-2 h2{
+    font-size: 30px;
+}
+.box-2 h3{
+    font-size: 40px;
+}
+.clear{
+    clear: both;
+    float: none;
+}
